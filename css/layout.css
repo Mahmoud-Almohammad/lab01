@@ -1,0 +1,69 @@
+div,
+header,
+footer,
+aside{
+    float: left;
+    width: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+@media all and (max-width: 960px) {
+    body{
+        width: 480px;
+    }
+    header {
+        height: 75px;
+        padding: 29.5px 0;
+    }
+    aside {
+        height: 150px;
+        padding: 67px 0;
+    }
+    .cd {
+        height: 125px;
+        padding: 54.5px 0;
+    }
+    .efgh{
+        height: 250px;
+        width: 240px;
+        padding: 117px 0;
+    }
+    footer{
+        height: 80px;
+        padding: 32px 0;
+    }
+}
+
+@media all and (min-width: 960px) {
+     body{
+        width: 960px;
+     }
+    
+    header {
+        height: 100px;
+        padding: 42px 0;
+    }
+    aside {
+        width: 200px;
+        height: 600px;
+        padding: 292px 0;
+    }
+    .cd {
+        width: 380px;
+        height: 200px;
+        padding: 92px 0;
+    }
+    .efgh{
+        width: 190px;
+        height: 250px;
+        padding: 117px 0;
+    }
+    footer{
+        width: 760px;
+        height: 150px;
+        padding: 67px 0;
+    }
+}

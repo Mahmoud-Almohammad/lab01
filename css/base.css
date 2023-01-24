@@ -1,0 +1,9 @@
+@import './layout.css';
+@import './theme.css';
+
+* {
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+}
